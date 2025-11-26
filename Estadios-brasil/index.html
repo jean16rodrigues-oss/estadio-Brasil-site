@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Estádios de Futebol do Brasil</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <header class="page-header">
+    <h1>Estádios de Futebol do Brasil</h1>
+  </header>
+
+  <main class="content">
+    <section id="stadium-list" class="stadium-list" aria-live="polite"></section>
+  </main>
+
+  <!-- Modal simples -->
+  <div id="image-modal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-content" role="dialog" aria-modal="true">
+      <button id="modal-close" class="modal-close" aria-label="Fechar">✕</button>
+      <img id="modal-img" alt="">
+      <div id="modal-caption"></div>
+    </div>
+  </div>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
